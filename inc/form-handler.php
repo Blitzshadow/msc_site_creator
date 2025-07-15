@@ -28,7 +28,6 @@ add_action( 'init', function() {
             $_SESSION['msc_notice'] = 'Błędna odpowiedź na pytanie anty-spam.';
             return;
         }
-
         $template_id = intval( $_POST['msc_demo_template'] );
         $slug        = sanitize_title( $_POST['msc_slug'] );
         $title       = sanitize_text_field( $_POST['msc_title'] );
