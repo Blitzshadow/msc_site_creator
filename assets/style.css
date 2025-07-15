@@ -1,0 +1,16 @@
+.msc-site-creator-form {
+  max-width: 400px;
+  margin: 1em auto;
+  padding: 1em;
+  background: #f7f7f7;
+}
+.msc-site-creator-form input,
+.msc-site-creator-form select {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.msc-notice {
+  padding: 1em;
+  background: #e0ffe0;
+  border: 1px solid #00a000;
+}
